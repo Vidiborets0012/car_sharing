@@ -47,6 +47,13 @@ body {
   color: #fefefe;
   font-size: 18px;
   line-height: 21px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+.menu-list-link:hover {
+  border-bottom: 1px solid #fefefe;
 }
 
 .phone {
