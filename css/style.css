@@ -2,6 +2,11 @@ a {
   text-decoration: none;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -60,4 +65,49 @@ body {
   color: #fefefe;
   font-size: 18px;
   line-height: 21px;
+}
+
+/* ****************** HERO ****************** */
+
+.hero-heading {
+  display: flex;
+  padding: 50px 0 30px;
+}
+
+.hero-content {
+  text-align: center;
+  width: 50%;
+}
+.hero-title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1b1818;
+  padding-top: 90px;
+  margin: 0 auto 20px;
+  max-width: 455px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto 63px;
+  max-width: 470px;
+}
+
+.application-btn {
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 16px 19px 15px 18px;
+  background-color: #c5ac2d;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+.application-btn:hover {
+  color: #c5ac2d;
+  background-color: #fefefe;
+  border: 1px solid #c5ac2d;
 }
