@@ -68,7 +68,9 @@ body {
 }
 
 /* ****************** HERO ****************** */
-
+.hero {
+  padding-bottom: 100px;
+}
 .hero-heading {
   display: flex;
   padding: 50px 0 30px;
@@ -161,4 +163,50 @@ body {
 
 .hero-slider-text-places {
   margin-right: 12px;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-item {
+  border: 1px solid #332208;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(196, 196, 196, 0);
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero-item:hover {
+  transform: scale(1.25);
+}
+
+.hero-links {
+  padding-right: 80px;
+}
+
+.hero-link {
+  color: #1b1818;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #1b1818;
+}
+
+.hero-link + .hero-link {
+  margin-left: 20px;
 }
