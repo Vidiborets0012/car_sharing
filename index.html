@@ -19,9 +19,22 @@
       rel="stylesheet"
     />
     <title>Car Sharing</title>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -45,6 +58,118 @@
         </div>
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <!-- *********************** HERO *********************** -->
+      <section class="hero container">
+        <div class="hero-heading">
+          <div class="hero-content">
+            <h1 class="hero-title">Каршеринг в Киеве LUX автомобили</h1>
+            <p class="hero-text">
+              Закажи эксклюзивный автомобиль через мобильное приложение в любой точке города
+            </p>
+            <a class="application-btn" href="#">скачать приложение</a>
+          </div>
+
+          <div class="hero-slider">
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-mersedes.png" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-fiat-500.png" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-fiat-linea.png" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-saab.png" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-shevrolet.png" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+
+            <div class="hero-slider-item">
+              <img class="hero-slider-images" src="./images/slider-amg.pnggit" alt="" />
+              <div class="hero-slider-text-indicators">
+                <p class="hero-slider-text-price">4 грн/мин</p>
+                <p class="hero-slider-text-places">5 мест</p>
+                <p class="hero-slider-text-mileage">50 тыс. км пробег</p>
+              </div>
+              <!-- <p class="hero-slider-text">4 грн/мин 5 мест 50 тыс. км пробег</p> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="hero-items">
+            <div class="hero-item">
+              <img class="hero-item-img" src="./images/car.svg" alt="" />
+              <p class="hero-item-text">Более 300 автомобилей в вашем распоряжении</p>
+            </div>
+
+            <div class="hero-item">
+              <img class="hero-item-img" src="./images/card.svg" alt="" />
+              <p class="hero-item-text">Дешевле такси и собственного автомобиля</p>
+            </div>
+
+            <div class="hero-item">
+              <img class="hero-item-img" src="./images/map.svg" alt="" />
+              <p class="hero-item-text">Лучшие автомобили в любой точке города</p>
+            </div>
+          </div>
+          <div class="hero-links">
+            <a class="hero-link" href="#">Условия аренды автомобиля </a>
+            <a class="hero-link" href="#">Публичный договор</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

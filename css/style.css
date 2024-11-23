@@ -2,6 +2,11 @@ a {
   text-decoration: none;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -60,4 +65,148 @@ body {
   color: #fefefe;
   font-size: 18px;
   line-height: 21px;
+}
+
+/* ****************** HERO ****************** */
+.hero {
+  padding-bottom: 100px;
+}
+.hero-heading {
+  display: flex;
+  padding: 50px 0 30px;
+}
+
+.hero-content {
+  text-align: center;
+  width: 50%;
+}
+.hero-title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1b1818;
+  padding-top: 90px;
+  margin: 0 auto 20px;
+  max-width: 455px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto 63px;
+  max-width: 470px;
+}
+
+.application-btn {
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 16px 19px 15px 18px;
+  background-color: #c5ac2d;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+.application-btn:hover {
+  color: #c5ac2d;
+  background-color: #fefefe;
+  border: 1px solid #c5ac2d;
+}
+
+/* ******* SLIDER AVTO ******* */
+
+.hero-slider {
+  width: 50%;
+}
+
+.hero-slider .slick-dots {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-dots {
+  text-align: center;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #332208;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.slick-active button {
+  width: 16px;
+  height: 16px;
+}
+
+/* .hero-slider-text {
+} */
+
+.hero-slider-text-indicators {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 108px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+}
+
+.hero-slider-text-price {
+  margin-right: 14px;
+}
+
+.hero-slider-text-places {
+  margin-right: 12px;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-item {
+  border: 1px solid #332208;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(196, 196, 196, 0);
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero-item:hover {
+  transform: scale(1.25);
+}
+
+.hero-links {
+  padding-right: 80px;
+}
+
+.hero-link {
+  color: #1b1818;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #1b1818;
+}
+
+.hero-link + .hero-link {
+  margin-left: 20px;
 }
