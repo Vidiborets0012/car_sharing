@@ -315,6 +315,7 @@ body {
   border-radius: 50%;
   background-color: #332208;
   right: 0;
+  top: 2px;
 }
 
 .benefits-list-item:nth-child(1),
@@ -348,4 +349,27 @@ body {
 .benefits-content-text + .benefits-content-text {
   width: 267px;
   margin-left: auto;
+}
+
+/* ***** video-popup ****** */
+
+.video-popup {
+  background-color: #c5ac2d;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fefefe;
+  padding: 6px 34px 6px 64px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.video-popup::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/PLAY.svg');
+  top: 12px;
+  left: 34px;
 }
