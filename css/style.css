@@ -171,6 +171,7 @@ body {
   justify-content: space-between;
 }
 
+/* ****************** HERO-BOTTOM ****************** */
 .hero-items {
   width: 50%;
   display: flex;
@@ -209,4 +210,10 @@ body {
 
 .hero-link + .hero-link {
   margin-left: 20px;
+}
+
+/* ****************** RENT ****************** */
+.rent {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
