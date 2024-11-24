@@ -338,4 +338,14 @@ body {
 
 .benefits-content {
   width: 300px;
+  text-align: right;
+}
+
+.benefits-content-text {
+  margin-bottom: 30px;
+}
+
+.benefits-content-text + .benefits-content-text {
+  width: 267px;
+  margin-left: auto;
 }
