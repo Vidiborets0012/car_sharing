@@ -273,3 +273,10 @@ body {
   color: #000000;
   margin-bottom: auto;
 }
+
+/* *************** BENEFITS ************ */
+
+.benefits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
