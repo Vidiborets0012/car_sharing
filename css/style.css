@@ -373,3 +373,12 @@ body {
   top: 12px;
   left: 34px;
 }
+
+/* **************** REVIEWS ***************** */
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #332208;
+  color: #fefefe;
+}
