@@ -498,13 +498,36 @@ body {
   display: inline-block;
   padding: 16px 36px 15px;
   background-color: #c5ac2d;
-  border: 1px solid #c5ac2d;
+  border: 1px solid transparent;
   cursor: pointer;
   margin-top: 50px;
+  transition: all 0.5s;
 }
 
 .feedback-btn:hover {
   color: #c5ac2d;
   background-color: #fefefe;
-  /* border: 1px solid #c5ac2d; */
+  border: 1px solid #c5ac2d;
+}
+
+/* ************ FOOTER ***************** */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 24px;
+  background-color: #332208;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
