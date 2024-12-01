@@ -12,4 +12,8 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1
     });
+
+    $('.menu-btn').on('click', function () {
+        $('.menu-list').toggleClass('menu-list-active');
+    });
 });
