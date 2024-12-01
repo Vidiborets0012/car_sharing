@@ -532,7 +532,8 @@ body {
 
 /* **************** @MEDIA **************** */
 
-/* **************** HEDER **************** */
+@media screen and (max-width: 1000px) {
+}
 
 @media screen and (max-width: 860px) {
   .menu {
