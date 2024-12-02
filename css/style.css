@@ -607,6 +607,10 @@ body {
 }
 
 @media screen and (max-width: 860px) {
+  .footer .menu {
+    display: none;
+  }
+
   .menu {
     order: 1;
   }
@@ -715,6 +719,17 @@ body {
 
   .hero-links {
     padding-top: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .phone {
+    display: inline-block;
+    margin-top: 30px;
   }
 }
 
