@@ -657,6 +657,10 @@ body {
   .rent-item {
     margin: 30px;
   }
+
+  .feedback-images {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 650px) {
