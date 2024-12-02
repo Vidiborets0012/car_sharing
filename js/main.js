@@ -18,7 +18,27 @@ $(function () {
         arrows: false,
         dots: true,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+    {
+      breakpoint: 1141,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+        {
+      breakpoint: 846,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+        {
+      breakpoint: 585,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+  ]
     });
 
     $('.menu-btn').on('click', function () {
