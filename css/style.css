@@ -604,13 +604,13 @@ body {
   .hero-link {
     padding: 0;
   }
-}
 
-@media screen and (max-width: 860px) {
   .footer .menu {
     display: none;
   }
+}
 
+@media screen and (max-width: 860px) {
   .menu {
     order: 1;
   }
@@ -664,6 +664,14 @@ body {
 
   .feedback-images {
     display: none;
+  }
+
+  .rent,
+  .benefits,
+  .reviews,
+  .feedback,
+  .footer {
+    padding: 50px 0;
   }
 }
 
